@@ -12,6 +12,9 @@ body{
 		.navigatebar{
 			padding-left: 40em;
 		}
+		.home-text{
+			margin-top: 3em;
+		}
 		.cards{
 			border: 2em  solid #ffffff;	
 		}		
@@ -78,46 +81,12 @@ body{
 		.cardsde{
 			border-radius: 0px 0px 0px 0px;
 		}
-		.link-list {
-  padding: 10px 0px !important;
-}
-
-.aligncenter {
-  display: block;
-}
-
-@media (min-width: 768px) {
-	.hero h1, .blog-component .blog-title {
-		font-size: 2.25em;
-	}
-	
-	.h2, h2, .themed-header header h2 {
-		font-size: 1.85em;
-	}
-	
-	.h3, h3 {
-		font-size: 1.2em;
-	}
-}
-
-@media (min-width: 992px) {
-	.hero h1, .blog-component .blog-title {
-		font-size: 3.25em;
-	}
-	
-	.h2, h2, .themed-header header h2 {
-		font-size: 2.25em;
-	}
-	
-	.h3, h3 {
-		font-size: 1.4em;
-	}
-}	
+		
 
 
 /* BLOG PAGE*/
 	
-		.bg-image{
+		.bg-image-blog{
 			background-image: url("../img/background.png");
 			height: 350px;
 			background-size: cover;
@@ -180,3 +149,46 @@ body{
 			margin-top: 4em;
 			font-size: 15px;
 		}
+
+/* COMMUNITY*/
+
+	.advisors-con{
+		/*height: 600px;*/
+		padding-top: 4em;
+		padding-left: 5em;
+		padding-right: 5em;
+		margin-top: 4em;
+		margin-bottom: 3em;
+	}
+	.advisors{
+		padding-top: 4em;
+	}
+	.names{
+		font-size: 25px;
+		padding-top: 10px;
+		padding-bottom: 10px;
+	}
+
+/* CAREER*/
+	.career-card{
+		margin-top: -6em;
+	}
+	.con-text{
+		font-size: 21px;
+		margin-left: 0px;
+		padding-left: 0px;
+	}
+	.con-img{
+		margin-right: 0px;
+	}
+
+/* SEARCH*/
+	.search-con{
+		height: 700px;
+		width: 85%;
+		margin-top: -13em;
+		margin-bottom: 5em;
+		padding-top: 3em;
+		padding-left: 5em;
+		padding-right: 5em;
+	}
