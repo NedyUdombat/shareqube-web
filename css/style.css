@@ -4,7 +4,7 @@ body{
 			background-color: #f3f3f3;
 		}
 		.bg-image{
-			background-image: url("../img/background.png");
+			background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("../img/background.png");
 			height: 600px;
 			background-size: cover;
 			margin-right:0px;
@@ -31,19 +31,23 @@ body{
 			margin-bottom: 5em;
 		}
 		.team-jumbo{
-			height: 600px;
 			padding-top: 4em;
+			padding-bottom: 4em;
 		}
-		  /* Make the image fully responsive */
-  .carousel-inner img {
-      width: 100%;
-      height: 100%;
-  }
+		/*.carousel-con{
+			background-color: #000;
+			height: 400px;
+		}
+		.profile-img{
+			height: 350px;
+			width: 70%;
+		}*/
+	
   
 /* RESOURCES */
 		
 		.bg-image1{
-			background-image: url("../img/background.png");
+			background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("../img/background.png");
 			height: 300px;
 			background-size: cover;
 			margin-right:0px;
@@ -81,13 +85,29 @@ body{
 		.cardsde{
 			border-radius: 0px 0px 0px 0px;
 		}
-		
-
+		.res-text{
+			font-size: 25px;
+			margin-top: 2em;
+		}
+		.res-con{
+			padding-top: 4em;
+			padding-left: 5em;
+			padding-right: 5em;
+			padding-bottom: 4em;
+			margin-bottom: 2em;
+		}
+		.sub-con{
+			background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("https://res.cloudinary.com/nedy123/image/upload/v1511273051/back_pnqw3r.png") ;
+			background-size: cover;
+			height: 270px;	
+			padding-top: 4em;
+			padding-bottom: 2em;	
+		}
 
 /* BLOG PAGE*/
 	
 		.bg-image-blog{
-			background-image: url("../img/background.png");
+			background-image:  linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("../img/background.png");
 			height: 350px;
 			background-size: cover;
 			margin-right:0px;
@@ -157,6 +177,7 @@ body{
 		padding-top: 4em;
 		padding-left: 5em;
 		padding-right: 5em;
+		padding-bottom: 4em;
 		margin-top: 4em;
 		margin-bottom: 3em;
 	}
@@ -173,13 +194,33 @@ body{
 	.career-card{
 		margin-top: -6em;
 	}
+	.comp-con{
+		padding-bottom: 5em;
+	}
 	.con-text{
 		font-size: 21px;
 		margin-left: 0px;
 		padding-left: 0px;
+		padding-top: -2em;
 	}
 	.con-img{
 		margin-right: 0px;
+		padding-top: 3em;
+	}
+	.career-con{
+		margin-top: 2em;
+		margin-bottom: 2em;
+		width: 80%;
+		padding-top: 3em;
+		padding-bottom: 3em;
+		padding-left: 4em;
+		padding-right: 4em;
+	}
+	.con-text{
+		margin-top: 2em;
+	}
+	.img-text{
+		font-size: 15px;
 	}
 
 /* SEARCH*/
