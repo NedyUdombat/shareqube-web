@@ -74,6 +74,32 @@ margin-right: 10em;
 	text-decoration:none;
 }
 
+/*RESOURCE*/
+.competitors{
+	padding: 2% 4%;
+}
+.bg-white h3{
+	margin: 2% 0% 4% 0%;
+}
+.left-text{
+	padding: 0% 5%;
+}
+.list-row{
+	padding: 2%;
+	margin: 2% 0;
+}
+.res-text{
+	font-size: 25px;
+	margin-top: 2em;
+}
+.res-con{
+	padding-top: 4em;
+	padding-left: 5em;
+	padding-right: 5em;
+	padding-bottom: 4em;
+	margin-bottom: 2em;
+}
+
 
 @media only screen and (max-width: 600px){
 	footer div.footer-container{
@@ -86,4 +112,8 @@ margin-right: 10em;
 	.card-deck{
 		padding: 0 0;
 	}
+	.view-btn{
+		margin-bottom: 2em;
+	}
+	
 }
