@@ -17,6 +17,13 @@ nav{
 	/*margin-right:0px;*/
 	/*padding: 3% 6%;*/
 }
+.navbar-toggler{
+	color: white;
+	background-color: #fff;
+	position: absolute;
+	right: 0;
+	/*left: 100;*/
+}
 .display-text{
 
 	padding-top: 8%;
@@ -34,7 +41,7 @@ margin-right: 10em;
 	margin: 5em 0 5em 0;
 }
 .card-container{
-	margin-top: -10em
+	margin-top: -10em;
 }
 
 .card{
@@ -54,7 +61,7 @@ margin-right: 10em;
 .footer-container{
 	display: flex;
 	justify-content: center;
-	background-color: #003c71; 
+	background-color: #002430; 
 	padding: 1% 4%;
 }
 .equal{
@@ -100,6 +107,82 @@ margin-right: 10em;
 	margin-bottom: 2em;
 }
 
+/*BLOG*/
+.jumbotron-nav-short{
+	height: auto;
+	background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("../img/background.png");
+}
+.dropdown button{
+	width: 100%;
+}
+.d-div{
+	margin-right: 6%;
+	margin-top: -10%;
+	z-index: 1;
+}
+.dropdown-item{
+	border-radius: 0;
+}
+.card-div{
+	margin: 2% 6%; 
+	padding: 2%;
+}
+.pagination{
+	background-color: transparent;
+	margin: 3% 0%;
+}
+
+/*COMMUNITY*/
+.community-card-container{
+	margin-top: -5em;
+}
+.advisors-container{
+	padding: 4% 4%;
+	margin-bottom: 4%;
+}
+.advisors-header{
+	margin-bottom: 2%;
+}
+.ad-card{
+	padding: 2%;
+}
+.names{
+	margin: 1%;
+	font-size: 25px;
+	font-weight: lighter;
+}
+
+/*CAREERS*/
+.mission-container{
+	margin: 4% 8%
+	/*padding 2% 4%;*/
+}
+.line{
+	width: 20%
+	height:1px;
+	margin: 4% 20%;
+	border: 1px solid #f2f2f2;
+}
+.icon-row{
+	padding: 1% 4%;
+}
+
+/*SEARCH*/
+.jumbotron-nav-short-1{
+	height: 300px;
+	background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("../img/background.png");
+}
+.form-control{
+	border-radius: 0;
+}
+.search-block{
+	padding: 5% 8%;
+	/*margin-top: -5em*/
+	/*height:500px;*/
+}
+
+
+
 
 @media only screen and (max-width: 600px){
 	footer div.footer-container{
@@ -115,5 +198,76 @@ margin-right: 10em;
 	.view-btn{
 		margin-bottom: 2em;
 	}
-	
+	.jumbotron-nav{
+		height: 100%;
+	}
+	.display-text{
+		padding-top: 0%;
+	}
+	.card-container{
+		margin-top: 0em;
+	}
+	.community-card-container{
+		margin-top: 0em;
+	}
+	.card-deck{
+		padding: 0em 0em;
+	}
+	.dropdown-container{
+	/*margin: 0 3%;*/
+	width: 100%;
+	justify-content: center;
+	}
+	.dropdown button{
+		width: 100%;
+	}
+	.left-text-header{
+		text-align: center;
+	}
+	.btn-secondary{
+		width: 100%;
+	}
+	.view-btn{
+		width: 100%;
+	}
+	.read-btn{
+		margin-bottom: 1%;
+	}
+	.d-div button{
+		/*margin-right: 0%;*/
+		width: 100%;
+		margin-top: 0%;
+	}
+	.display-4{
+		font-size: 30px;
+	}
+	.card-div{
+		margin:4% 0;
+	}
+	.ad-card{
+		padding: 4% 3%;
+	}
+	.img-fluid-card{
+		width: 100%
+	}
+	.text-card{
+		padding: 2% 4%;
+	}
+	.mission{
+		padding: 4% 0%;
+		/*margin: 0%;*/
+	}
+	.img-mission{
+		width: 100%;
+	}
+	.name{
+		font-size: 20px;
+	}
+	.mission-container{
+		width: 100%;
+		padding: 1% 5%;
+		margin: 4% 0;
+	}
+
 }
+
