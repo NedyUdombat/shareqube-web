@@ -30,6 +30,7 @@ nav{
 	background-color: #fff;
 	position: absolute;
 	right: 0;
+	border-radius: 0;
 	/*left: 100;*/
 }
 .display-text{
@@ -126,7 +127,7 @@ margin-right: 10em;
 }
 .d-div{
 	margin-right: 6%;
-	margin-top: -10%;
+	margin-top: -2.5%;
 	z-index: 1;
 }
 .dropdown-item{
@@ -301,6 +302,12 @@ margin-right: 10em;
 		top: 0 !important;
 	}
 }
+.search-block{
+	padding: 5% 8%;
+	/*margin-top: -5em*/
+	/*height:500px;*/
+}
+
 .hero-section {
 	padding: 160px 0;
 }
@@ -631,7 +638,7 @@ margin-right: 10em;
 	.d-div button{
 		/*margin-right: 0%;*/
 		width: 100%;
-		margin-top: 0%;
+		margin-top: 10%;
 	}
 	.display-4{
 		font-size: 30px;
@@ -663,6 +670,9 @@ margin-right: 10em;
 		padding: 1% 5%;
 		margin: 4% 0;
 	}
-
+	header{
+		margin-top: 15%;
+		margin-bottom: 15%;
+	}
 }
 
